@@ -151,7 +151,7 @@ Bottom Section - Site Links
 /*select any elements with a class of left-site-links*/
 .left-site-links {
 	float: left;
-	padding-right: 10px;
+	padding-left: 10px;
 }
 /*select any elements with a class of right-site-links*/
 .right-site-links {
@@ -160,13 +160,13 @@ Bottom Section - Site Links
 }
 /*select any elements with a class of left-site-links and find all li tags inside*/
 .left-site-links li, .right-site-links li {
-list-style: none;
-display: inline;
-line-height: 40px;
+	list-style: none;
+	display: inline;
+	line-height: 40px;
 }
 /*select any elements with a class of right-site-links and find all li tags inside the 1st anchor tags inside*/
 .right-site-links li a:first-child {
-padding-right: 8px;
+	padding-right: 8px;
 }
 /*select any elements with a class of left-site-links and find all li tags inside then the 2nd anchor tags inside*/
 .left-site-links li:nth-child, .left-site-links li:nth-child {
